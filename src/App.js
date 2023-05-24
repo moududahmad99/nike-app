@@ -1,10 +1,9 @@
 import React from 'react';
+import AppExtension from './components/AppExtension';
 
 function App() {
     return (
-        <>
-            <h3>Nike App</h3>
-        </>
+        <AppExtension />
     );
 }
 

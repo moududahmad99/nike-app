@@ -1,0 +1,71 @@
+.navbar-links-inner ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar-links-inner ul li {
+  list-style: none;
+}
+
+.navbar-links-inner ul li a {
+  text-decoration: none;
+  color: #111111;
+  margin: 0 15px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.navbar-search-bar {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+
+.navbar-search-bar input {
+  font-size: 18px;
+  font-family: "Montserrat";
+  padding: 8px 0 8px 40px;
+}
+
+.custom-input {
+  border: none;
+  padding: 8px;
+  outline: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: #f5f5f5;
+}
+
+.input-icons-left {
+  position: absolute;
+  top: 45%;
+  left: 10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  margin-bottom: 14px;
+}
+
+.input-icons-right {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  display: flex;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.navbar-search-bar i {
+  margin: 0 14px 7px 0;
+  font-size: 22px;
+  color: #111111;
+}

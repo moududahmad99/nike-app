@@ -1,0 +1,54 @@
+#navbar-top {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  background: #f5f5f5;
+  align-items: center;
+}
+
+.navbar-top-logo img {
+  height: 25px;
+  width: 25px;
+}
+
+.navbar-top-links ul {
+  padding: 15px 0;
+  margin: 0;
+}
+
+.navbar-top-links ul li {
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar-top-links ul li a {
+  text-decoration: none;
+  color: #111111;
+  margin: 0 10px;
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+.horizontal-line {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  border-right: 1px solid #111111;
+  height: 20px;
+  margin: 0 0px;
+}
+
+.skip-top-main-content {
+  text-align: center;
+}
+
+.skip-top-main-content h4 {
+  text-transform: capitalize;
+  font-family: 'Roboto';
+  font-size: 17px;
+  line-height: 30px;
+  margin: 0;
+  padding: 4px 15px;
+  background: #ffffff;
+}
