@@ -1,0 +1,81 @@
+#air-max-slider {
+  margin-bottom: 70px;
+}
+
+#air-max-slider h4 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.air-max-slider--inner img {
+  width: 90%;
+}
+
+.air-max-slider--inner h5 {
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.air-max-slider--inner p {
+  color: #757575;
+}
+
+.air-max-slider--inner--text {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.air-max-slider--inner--text--right h6 {
+  font-family: 'Roboto';
+  padding-right: 40px;
+}
+
+
+/* Arrow Prev and Next */
+.slick-prev:before,
+.slick-next:before {
+  color: #757575;  
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-prev:before {
+  content: "←";
+}
+
+.slick-next:before {
+  content: "→";
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background-color: #fff;
+  padding: 1px;
+  cursor: pointer;
+  z-index: 1;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.custom-prev-arrow {
+  left: 1240px;
+}
+
+.custom-next-arrow {
+  right: 10px;
+}
