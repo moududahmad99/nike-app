@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import NavbarAddendum from './Navbar Links/NavbarAddendum';
 import Banner from './Banner/Banner';
+import NikeAirMax from './Nike Air Max/NikeAirMax';
 
 export default function AppExtension() {
     return (
@@ -21,6 +22,7 @@ export default function AppExtension() {
                 </Routes>
             </BrowserRouter>
             <Banner/>
+            <NikeAirMax />
         </div>
     )
 }
