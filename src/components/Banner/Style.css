@@ -1,0 +1,29 @@
+#Banner-top {
+  background: #f5f5f5;
+}
+
+.banner-top h4 {
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.banner-top p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #111111;
+}
+
+.banner-top p span {
+  color: #111111;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#banner-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./assets/Banner-shoes.png) no-repeat top / cover;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 80px;
+}

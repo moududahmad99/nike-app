@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import NavbarAddendum from './Navbar Links/NavbarAddendum';
+import Banner from './Banner/Banner';
 
 export default function AppExtension() {
     return (
@@ -19,6 +20,7 @@ export default function AppExtension() {
                     <Route path="/Home" />
                 </Routes>
             </BrowserRouter>
+            <Banner/>
         </div>
     )
 }
