@@ -1,0 +1,31 @@
+#gear-up-slider {
+  margin: 100px 0;
+}
+
+#gear-up-slider h4 {
+  font-size: 15px;
+  line-height: 24px;
+  color: #111111;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+
+.gear-up-slider--inner img {
+  outline: none;
+}
+
+.GearUpSlider-prev-arrow {
+  position: absolute;
+  left: 550px !important;
+  top: -30px;
+}
+
+.GearUpSlider-next-arrow {
+  position: absolute;
+  left: 580px !important;
+  top: -30px;
+}
+
+.gear-up--slider {
+  outline: none;
+}

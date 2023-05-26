@@ -6,6 +6,7 @@ import Banner from './Banner/Banner';
 import NikeAirMax from './Nike Air Max/NikeAirMax';
 import AirMaxSlider from './Air Max Slider/AirMaxSlider';
 import Features from './Features/Features';
+import GearUpSlider from './Gear Up/GearUpSlider';
 
 export default function AppExtension() {
     return (
@@ -27,6 +28,7 @@ export default function AppExtension() {
             <NikeAirMax />
             <AirMaxSlider />
             <Features />
+            <GearUpSlider />
         </div>
     )
 }
