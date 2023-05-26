@@ -1,0 +1,40 @@
+#essentials-wrapper {
+  margin: 80px 0;
+}
+.essentials-heading {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.essentials-inner {
+  position: relative;
+}
+
+.essentials-inner img {
+  width: 100%;
+}
+
+.essentials-inner--button {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.essentials-inner--button a {
+  padding: 10px 40px;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.essentials-inner--button a:hover {
+  color: #111111;
+}

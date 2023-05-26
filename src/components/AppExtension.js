@@ -8,6 +8,7 @@ import AirMaxSlider from './Air Max Slider/AirMaxSlider';
 import Features from './Features/Features';
 import GearUpSlider from './Gear Up Slider/GearUpSlider';
 import Flight from './Flight/Flight';
+import Essentials from './Essentials/Essentials';
 
 export default function AppExtension() {
     return (
@@ -31,6 +32,7 @@ export default function AppExtension() {
             <Features />
             <GearUpSlider />
             <Flight />
+            <Essentials />
         </div>
     )
 }
