@@ -1,0 +1,52 @@
+.flight-wrapper {
+  margin: 40px 0;
+}
+
+.flight-wrapper img {
+  width: 100%;
+}
+
+.flight-heading {
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 28px;
+  color: #111111;
+}
+
+.flight-essentials {
+  margin: 20px 0 60px;
+}
+
+.flight-essentials h1 {
+  font-family: "Roboto";
+  font-size: 52px;
+  line-height: 60px;
+  color: #111111;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.flight-essentials p {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.flight-essentials a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Roboto";
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: #111111;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.flight-essentials a:hover {
+  color: #ffffff;
+}
