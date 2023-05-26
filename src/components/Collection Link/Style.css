@@ -1,0 +1,30 @@
+#collection-wrapper {
+  margin: 70px 0;
+}
+
+.collection-inner h5 {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #111111;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.collection-inner ul {
+  padding: 0;
+  margin: 0;
+}
+
+.collection-inner ul li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.collection-inner ul li a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}

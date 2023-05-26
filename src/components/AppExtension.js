@@ -9,6 +9,7 @@ import Features from './Features/Features';
 import GearUpSlider from './Gear Up Slider/GearUpSlider';
 import Flight from './Flight/Flight';
 import Essentials from './Essentials/Essentials';
+import CollectionLink from './Collection Link/CollectionLink';
 
 export default function AppExtension() {
     return (
@@ -33,6 +34,7 @@ export default function AppExtension() {
             <GearUpSlider />
             <Flight />
             <Essentials />
+            <CollectionLink />
         </div>
     )
 }
