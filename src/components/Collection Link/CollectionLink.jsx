@@ -14,18 +14,15 @@ const CollectionLink = () => {
                                     <li>
                                         <a href='##'>Air Force 1</a>
                                     </li>
-                                </ul>
-                                <ul>
+
                                     <li>
                                         <a href='##'>Huarache</a>
                                     </li>
-                                </ul>
-                                <ul>
+
                                     <li>
                                         <a href='##'>Air Max 90</a>
                                     </li>
-                                </ul>
-                                <ul>
+
                                     <li>
                                         <a href='##'>Air Max 95</a>
                                     </li>
@@ -40,18 +37,12 @@ const CollectionLink = () => {
                                         <a href='##'>All Shoes</a>
 
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Custom Shoes</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Jordan Shoes</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Running Shoes</a>
                                     </li>
@@ -65,18 +56,12 @@ const CollectionLink = () => {
                                     <li>
                                         <a href='##'>All Clothing</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Modest Wear</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Hoodies & Pullovers</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Shirts & Tops</a>
                                     </li>
@@ -90,18 +75,12 @@ const CollectionLink = () => {
                                     <li>
                                         <a href='##'>Infant & Toddler Shoes</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Kids' Shoes</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Kids' Jordan Shoes</a>
                                     </li>
-                                </ul>
-                                <ul>
                                     <li>
                                         <a href='##'>Kids' Basketball Shoes</a>
                                     </li>

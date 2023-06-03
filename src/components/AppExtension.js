@@ -10,6 +10,7 @@ import GearUpSlider from './Gear Up Slider/GearUpSlider';
 import Flight from './Flight/Flight';
 import Essentials from './Essentials/Essentials';
 import CollectionLink from './Collection Link/CollectionLink';
+import Footer from './Footer/Footer';
 
 export default function AppExtension() {
     return (
@@ -35,6 +36,7 @@ export default function AppExtension() {
             <Flight />
             <Essentials />
             <CollectionLink />
+            <Footer />
         </div>
     )
 }
