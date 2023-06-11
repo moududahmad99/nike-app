@@ -1,9 +1,13 @@
 import React from 'react';
-import AppExtension from './components/AppExtension';
+import Login from './pages/Sign In';
+// import Home from './pages/Home';
 
 function App() {
     return (
-        <AppExtension />
+        <React.Fragment>
+            {/* <Home /> */}
+            <Login />
+        </React.Fragment>
     );
 }
 

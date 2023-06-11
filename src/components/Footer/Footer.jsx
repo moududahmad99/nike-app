@@ -64,7 +64,7 @@ const Footer = () => {
                                 <h5>© 2023 Nike, Inc. All Rights Reserved</h5>
                             </div>
                         </div>
-                        <div className="col-lg-5  text-end">
+                        <div className="col-lg-5 text-end">
                             <div className="footer-bottom-inner--right">
                                 <ul>
                                     <li><a href="##">Guides</a></li>

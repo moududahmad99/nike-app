@@ -1,0 +1,108 @@
+#signIn-wrapper {
+  margin: 30px 0 100px 0;
+}
+
+.signIn-inner h4 {
+  font-family: "Roboto";
+  padding: 0 120px;
+  margin: 45px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #111111;
+}
+
+.signIn-inner--form input {
+  font-family: "Montserrat" !important;
+  margin: 5px 0;
+  color: #8d8d8d;
+  padding: 8px 25px;
+  height: 50px;
+  width: 400px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  outline: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.signIn-inner-forgotPass {
+  margin: 10px 0;
+  align-items: center;
+}
+
+.signIn-inner-forgotPass .keep-me-login p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #111111;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.signIn-inner-forgotPass a {
+  color: #111111;
+  font-family: "Montserrat";
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #8d8d8d;
+  padding: 0 7px;
+}
+
+.signIn-inner-forgotPass a:hover {
+  text-decoration: underline;
+  color: #8d8d8d;
+}
+
+.signIn-inner .signIn-privacyPolicy {
+  font-family: "Montserrat";
+  color: #8d8d8d;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.signIn-inner .signIn-privacyPolicy span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signIn-inner .signIn-button {
+  background: #000;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.signIn-inner .signIn-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.signIn-inner--joinUs {
+  color: #8d8d8d;
+  font-family: "Montserrat";
+  margin: 40px 0;
+}
+
+.signIn-inner--joinUs a {
+  text-decoration: underline;
+  color: #000000;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.signIn-inner--joinUs a:hover {
+  color: #727272d0;
+}
