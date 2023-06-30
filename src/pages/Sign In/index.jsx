@@ -1,14 +1,16 @@
 import React from 'react'
-import NavbarRouter from '../../components/Navbar/NavbarRouter'
 import Footer from '../../components/Footer/Footer'
-import SignInRouter from '../../components/Sign In/SignInRouter'
+import { Navbar } from 'react-bootstrap'
+import SignIn from '../../components/Sign In/SignIn'
+import NavbarLinks from '../../components/Navbar Links/NavbarAddendum'
 
 
 const Login = () => {
     return (
         <div>
-            <NavbarRouter />
-            <SignInRouter />
+            <Navbar />
+            <NavbarLinks />
+            <SignIn />
             <Footer />
         </div>
     )

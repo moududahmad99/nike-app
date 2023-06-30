@@ -43,12 +43,14 @@
   text-align: center;
 }
 
-.skip-top-main-content h4 {
+.skip-top-main-content .skip2main {
+  text-decoration: none;
   text-transform: capitalize;
   font-family: 'Roboto';
   font-size: 17px;
   line-height: 30px;
   margin: 0;
-  padding: 4px 15px;
+  padding: 8px 15px;
   background: #ffffff;
+  color: #111111;
 }

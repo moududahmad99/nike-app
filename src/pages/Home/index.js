@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarRouter from '../../components/Navbar/NavbarRouter';
+import NavbarLinksRouter from '../../components/Navbar Links/NavbarLinksRouter';
 import Banner from '../../components/Banner/Banner';
 import NikeAirMax from '../../components/Nike Air Max/NikeAirMax';
 import AirMaxSlider from '../../components/Air Max Slider/AirMaxSlider';
@@ -14,6 +15,7 @@ function Home() {
     return (
         <div>
             <NavbarRouter />
+            <NavbarLinksRouter />
             <Banner />
             <NikeAirMax />
             <AirMaxSlider />

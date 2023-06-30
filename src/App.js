@@ -1,12 +1,11 @@
 import React from 'react';
-import Login from './pages/Sign In';
-// import Home from './pages/Home';
+import Home from './pages/Home';
+import './App.css'
 
 function App() {
     return (
         <React.Fragment>
-            {/* <Home /> */}
-            <Login />
+            <Home />
         </React.Fragment>
     );
 }

@@ -20,7 +20,7 @@ const NavbarLinks = () => {
                         <div className="navbar-links-inner">
                             <ul>
                                 <li>
-                                    <Link to='new&features'>New & Features</Link>
+                                    <Link to='new-features'>New & Features</Link>
                                 </li>
                                 <li>
                                     <Link to='men-collection'>Men</Link>

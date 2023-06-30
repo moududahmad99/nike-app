@@ -16,7 +16,7 @@ const Navbar = () => {
                     </div>
                     <div className="col-lg-4 d-flex justify-content-center align-items-center">
                         <div className="skip-top-main-content">
-                            <h4>Skip to main Content</h4>
+                            <Link to='/' className='skip2main'>Skip to main Content</Link>
                         </div>
                     </div>
                     <div className="col-lg-4 justify-content-end p-0 d-flex">
@@ -24,7 +24,7 @@ const Navbar = () => {
                             <nav>
                                 <ul>
                                     <li>
-                                        <Link to="/find store">Find a Store</Link>
+                                        <Link to="/find-store">Find a Store</Link>
                                         <div className="horizontal-line" ></div>
                                     </li>
                                     <li>
@@ -33,12 +33,11 @@ const Navbar = () => {
 
                                     </li>
                                     <li>
-                                        <Link to="/join">Join In</Link>
+                                        <Link to="/registration">Join In</Link>
                                         <div className="horizontal-line" ></div>
-
                                     </li>
                                     <li>
-                                        <Link to="/sing-in">Sign In</Link>
+                                        <Link to="/sign-in">Sign In</Link>
                                     </li>
                                 </ul>
                             </nav>
